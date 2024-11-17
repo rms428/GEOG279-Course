@@ -1,0 +1,40 @@
+
+Seattle Census Tracts Dataset
+
+Dataset Overview:
+- Name: Seattle Census Tracts Dataset
+- Description: Census tract-level demographic, socioeconomic, and mental health data for Seattle.
+- Source:
+  - 2015-2019 ACS via Census API
+  - 2020 CDC Places Project
+  - Spatial lag model methodology referenced from CRD230 course materials.
+    Citation: CRD230. (n.d.). *Lab 8: Spatial Lag Model*. Retrieved November 17, 2024, from https://crd230.github.io/lab8.html
+- Spatial Coverage: Seattle City, Washington
+- CRS: WGS84 (EPSG:4326)
+- Format: GeoJSON
+
+Variables:
+- GEOID: Unique census tract identifier.
+- tpop: Total population.
+- pnhwhite: Percentage of non-Hispanic White population.
+- unempr: Unemployment rate (%).
+- pnhasn: Percentage of non-Hispanic Asian population.
+- pnhblk: Percentage of non-Hispanic Black population.
+- phisp: Percentage of Hispanic population.
+- ppov: Percentage of population below the poverty line.
+- pcol: Percentage of population with a bachelor's degree or higher.
+- pmob: Percentage of individuals who did not move in the past year.
+- DEP_CrudePrev: Crude prevalence of depressive disorders among adults (%).
+- geometry: Geospatial polygon of census tract boundaries.
+
+Data Processing:
+- Retrieved and processed demographic, socioeconomic, and mental health data.
+- Clipped to Seattle city boundaries and stored in WGS84.
+- Spatial lag modeling techniques referenced from CRD230 course materials (Lab 8).
+
+Usage:
+- Purpose: Analysis of relationships between socioeconomic factors and mental health.
+- Applications: Neighborhood analysis, spatial modeling, regression studies, and spatial lag modeling.
+
+
+
